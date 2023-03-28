@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Golos Text', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #352b2d;
+
+}
+
+.wrapper {
+    width: 600px;
+    background-color: #25181c;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 300px;
+    font-family: 'Lobster', cursive;
+    padding: 20px 40px;
+    background-image: url('https://media.istockphoto.com/id/1362489449/pl/zdjęcie/różowe-lody-topią-się-i-rozlewają-ze-stożka-gofrów-minimalistyczna-koncepcja-letniego.jpg?s=612x612&w=0&k=20&c=GIKrLtS3KloEOY7nD7GochZLBLgM0yIGkzRScg4M4bE=');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 25 ,28, 0.15);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: #ff0666;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.search {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 0;
+    background-color: rgb(226, 225, 225, 0.50);
+    color: #352b2d;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.search::placeholder {
+    color: #352b2d;
+    font-size: 16px;
+}
+
+.flavours-list {
+    padding: 10px 40px;
+}
+
+h2 {
+    padding: 20px 0;
+    color: #e2e1e1;
+}
+
+ul {
+    padding-bottom: 20px;
+    font-size: 16px;
+    list-style: none;
+    color: #e2e1e1;
+}
+
+li {
+    padding: 5px 20px;
+    border-bottom: 0.5px solid #ff7598;
+}
+
+li:last-of-type{
+    border-bottom: 0;
+}
